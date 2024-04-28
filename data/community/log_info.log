@@ -1,0 +1,5 @@
+2024-04-27 17:21:08,715 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:50] Starting LoggerTests using Java 20.0.2 with PID 3292 (started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-27 17:21:08,715 INFO [main] c.n.c.LoggerTests [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-27 17:21:09,207 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-27 17:21:09,348 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:56] Started LoggerTests in 0.8 seconds (process running for 1.081)
+2024-04-27 17:21:09,725 INFO [main] c.n.c.LoggerTests [LoggerTests.java:22] info log
