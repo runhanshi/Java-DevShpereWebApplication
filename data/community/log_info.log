@@ -1,5 +1,230 @@
-2024-04-27 17:21:08,715 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:50] Starting LoggerTests using Java 20.0.2 with PID 3292 (started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
-2024-04-27 17:21:08,715 INFO [main] c.n.c.LoggerTests [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
-2024-04-27 17:21:09,207 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
-2024-04-27 17:21:09,348 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:56] Started LoggerTests in 0.8 seconds (process running for 1.081)
-2024-04-27 17:21:09,725 INFO [main] c.n.c.LoggerTests [LoggerTests.java:22] info log
+2024-04-29 01:08:23,013 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:08:23,015 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:08:23,029 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-29 01:08:23,030 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-29 01:08:23,392 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:08:23,397 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:08:23,397 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:08:23,398 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:08:23,412 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:08:23,412 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 382 ms
+2024-04-29 01:08:23,549 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:08:23,651 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:08:23,659 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:08:23,669 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:08:23,675 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.835 seconds (process running for 1.084)
+2024-04-29 01:08:30,538 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-29 01:08:30,539 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-04-29 01:08:30,540 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 1 ms
+2024-04-29 01:08:35,099 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-04-29 01:08:35,170 INFO [http-nio-8080-exec-3] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d732660
+2024-04-29 01:08:35,170 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2024-04-29 01:21:05,717 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2024-04-29 01:21:05,721 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:21:05,728 INFO [Thread-5] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2024-04-29 01:21:05,730 INFO [Thread-5] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2024-04-29 01:21:05,770 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:21:05,770 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:21:05,861 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:21:05,861 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:21:05,861 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:21:05,861 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:21:05,864 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:21:05,865 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 93 ms
+2024-04-29 01:21:05,871 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2024-04-29 01:21:05,874 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-29 01:24:10,171 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:24:10,172 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:24:10,255 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:24:10,256 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:24:10,256 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:24:10,256 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:24:10,259 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:24:10,259 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 86 ms
+2024-04-29 01:24:10,263 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2024-04-29 01:24:10,265 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-29 01:26:09,946 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:26:09,946 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:26:10,029 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:26:10,030 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:26:10,030 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:26:10,030 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:26:10,033 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:26:10,033 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 86 ms
+2024-04-29 01:26:10,068 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:26:10,107 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:26:10,111 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:26:10,112 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:26:10,114 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.201 seconds (process running for 1067.528)
+2024-04-29 01:26:10,115 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2024-04-29 01:27:48,477 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-04-29 01:27:48,479 INFO [Thread-7] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:27:48,528 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:27:48,528 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:27:48,599 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:27:48,599 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:27:48,600 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:27:48,600 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:27:48,602 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:27:48,602 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 74 ms
+2024-04-29 01:27:48,632 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:27:48,672 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:27:48,677 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:27:48,678 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:27:48,680 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.166 seconds (process running for 1166.095)
+2024-04-29 01:27:48,681 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2024-04-29 01:29:02,850 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 3 class path changes (2 additions, 0 deletions, 1 modification)
+2024-04-29 01:29:02,852 INFO [Thread-17] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:29:02,921 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:29:02,921 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:29:02,988 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:29:02,988 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:29:02,988 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:29:02,988 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:29:02,991 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:29:02,991 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 69 ms
+2024-04-29 01:29:03,018 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:29:03,050 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:29:03,054 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:29:03,054 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:29:03,057 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.149 seconds (process running for 1240.471)
+2024-04-29 01:29:03,057 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2024-04-29 01:30:05,060 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-04-29 01:30:05,061 INFO [Thread-21] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:30:05,103 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:30:05,103 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:30:05,165 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:30:05,166 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:30:05,166 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:30:05,166 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:30:05,168 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:30:05,168 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 64 ms
+2024-04-29 01:30:05,198 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:30:05,229 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:30:05,233 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:30:05,234 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:30:05,236 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.143 seconds (process running for 1302.651)
+2024-04-29 01:30:05,237 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2024-04-29 01:30:47,101 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2024-04-29 01:30:47,104 INFO [Thread-25] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:30:47,170 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:30:47,170 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:30:47,233 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:30:47,233 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:30:47,233 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:30:47,233 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:30:47,235 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:30:47,235 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 65 ms
+2024-04-29 01:30:47,260 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:30:47,292 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:30:47,296 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:30:47,297 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:30:47,299 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.141 seconds (process running for 1344.714)
+2024-04-29 01:30:47,299 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2024-04-29 01:34:18,914 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2024-04-29 01:34:18,917 INFO [Thread-29] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:34:18,981 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:34:18,982 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:34:19,046 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:34:19,046 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:34:19,046 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:34:19,046 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:34:19,049 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:34:19,049 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 67 ms
+2024-04-29 01:34:19,075 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:34:19,106 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:34:19,110 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:34:19,110 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:34:19,112 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.142 seconds (process running for 1556.534)
+2024-04-29 01:34:19,113 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2024-04-29 01:35:01,369 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-29 01:35:01,370 INFO [Thread-33] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:35:01,410 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:35:01,410 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:35:01,476 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:35:01,476 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:35:01,476 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:35:01,476 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:35:01,478 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:35:01,478 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 67 ms
+2024-04-29 01:35:01,506 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:35:01,536 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:35:01,540 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:35:01,541 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:35:01,543 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.143 seconds (process running for 1598.965)
+2024-04-29 01:35:01,543 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2024-04-29 01:36:21,794 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-29 01:36:21,797 INFO [Thread-37] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:36:21,860 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:36:21,860 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:36:21,923 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:36:21,923 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:36:21,924 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:36:21,924 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:36:21,926 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:36:21,926 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 65 ms
+2024-04-29 01:36:21,951 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:36:21,981 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:36:21,984 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:36:21,985 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:36:21,987 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.138 seconds (process running for 1679.41)
+2024-04-29 01:36:21,988 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2024-04-29 01:38:22,658 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-04-29 01:38:22,660 INFO [Thread-41] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:38:22,706 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9309 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:38:22,706 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:38:22,768 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:38:22,768 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:38:22,768 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:38:22,768 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:38:22,770 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:38:22,770 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 63 ms
+2024-04-29 01:38:22,798 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:38:22,831 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:38:22,835 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:38:22,836 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:38:22,838 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.141 seconds (process running for 1800.261)
+2024-04-29 01:38:22,838 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2024-04-29 01:40:32,678 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9547 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:40:32,679 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:40:32,694 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-29 01:40:32,694 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-29 01:40:33,097 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:40:33,101 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:40:33,102 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:40:33,102 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:40:33,118 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:40:33,119 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 425 ms
+2024-04-29 01:40:33,261 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:40:33,363 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:40:33,371 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:40:33,381 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:40:33,386 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.88 seconds (process running for 1.091)
+2024-04-29 01:40:46,693 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-29 01:40:46,694 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-04-29 01:40:46,695 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 1 ms
+2024-04-29 01:44:49,087 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication using Java 20.0.2 with PID 9568 (/Users/runhanshi/Desktop/Java_Backend/1/Project1/community/target/classes started by runhanshi in /Users/runhanshi/Desktop/Java_Backend/1/Project1/community)
+2024-04-29 01:44:49,088 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:654] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 01:44:49,103 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-29 01:44:49,103 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-29 01:44:49,457 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:109] Tomcat initialized with port 8080 (http)
+2024-04-29 01:44:49,461 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:44:49,462 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-04-29 01:44:49,462 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 01:44:49,475 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-04-29 01:44:49,476 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 373 ms
+2024-04-29 01:44:49,605 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-04-29 01:44:49,715 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-04-29 01:44:49,726 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-29 01:44:49,733 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:241] Tomcat started on port 8080 (http) with context path '/community'
+2024-04-29 01:44:49,738 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:56] Started CommunityApplication in 0.806 seconds (process running for 1.224)
+2024-04-29 01:44:52,833 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-29 01:44:52,834 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2024-04-29 01:44:52,835 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 1 ms
+2024-04-29 01:44:52,867 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-04-29 01:44:52,919 INFO [http-nio-8080-exec-1] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3628f270
+2024-04-29 01:44:52,919 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
