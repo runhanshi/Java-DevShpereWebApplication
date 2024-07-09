@@ -29,7 +29,7 @@ public class Page {
     }
 
     public void setLimit(int limit) {
-        if (limit >= 1 && limit <= 100){
+        if (limit >= 1 && limit <= 100) {
             this.limit = limit;
         }
     }
@@ -39,7 +39,7 @@ public class Page {
     }
 
     public void setRows(int rows) {
-        if (rows >= 0){
+        if (rows >= 0) {
             this.rows = rows;
         }
     }
@@ -57,21 +57,20 @@ public class Page {
      *
      * @return
      */
-    public int getOffset(){
+    public int getOffset() {
         // current * limit - limit
         return (current - 1) * limit;
     }
-
 
     /**
      * 获取总页数
      *
      * @return
      */
-    public int getTotal(){
+    public int getTotal() {
         // rows / limit [+1]
         if (rows % limit == 0) {
-            return rows / limit ;
+            return rows / limit;
         } else {
             return rows / limit + 1;
         }
@@ -82,20 +81,20 @@ public class Page {
      *
      * @return
      */
-    public int getFrom(){
+    public int getFrom() {
         int from = current - 2;
         return from < 1 ? 1 : from;
     }
-
 
     /**
      * 获取结束页码
      *
      * @return
      */
-    public int getTo(){
+    public int getTo() {
         int to = current + 2;
         int total = getTotal();
         return to > total ? total : to;
     }
+
 }

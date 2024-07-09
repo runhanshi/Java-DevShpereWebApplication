@@ -14,6 +14,7 @@ import org.thymeleaf.context.Context;
 @SpringBootTest
 @ContextConfiguration(classes = CommunityApplication.class)
 public class MailTests {
+
     @Autowired
     private MailClient mailClient;
 
@@ -21,18 +22,19 @@ public class MailTests {
     private TemplateEngine templateEngine;
 
     @Test
-    public void testTextMail(){
-        mailClient.sendMail("ShiRunhan0329@outlook.com", "Test1", "Welcome.");
+    public void testTextMail() {
+        mailClient.sendMail("lihonghe@nowcoder.com", "TEST", "Welcome.");
     }
 
     @Test
-    public void testHtmlMail(){
+    public void testHtmlMail() {
         Context context = new Context();
-        context.setVariable("username","sunday");
+        context.setVariable("username", "sunday");
 
         String content = templateEngine.process("/mail/demo", context);
         System.out.println(content);
 
-        mailClient.sendMail("ShiRunhan0329@outlook.com", "HTML", content);
+        mailClient.sendMail("lihonghe@nowcoder.com", "HTML", content);
     }
+
 }
